@@ -1,0 +1,104 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<a name = "label2"></a> 
+		<h2> TOPICS INVOLVED</h2>
+		<a href = "#history">History</a></br>
+		<a href = "#label">Persistent connections</a>
+		
+		<h1>Hypertext Transfer Protocol</h1>
+		<p>The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
+
+Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP protocol version that was named 0.9.[2]
+ts secure variant named HTTPS is used by more than 76% of websites.[6]
+
+HTTP/2 is a more efficient expression of HTTP's semantics "on the wire", and was published in 2015; it is used by more than 45% of websites;[7] it is now supported by almost all web browsers (96% of users)[8] and major web servers over Transport Layer Security (TLS) using an Application-Layer Protocol Negotiation (ALPN) extension[9] where TLS 1.2 or newer is required.[10][11]
+
+HTTP/3 is the proposed successor to HTTP/2;[12][13] it is used by more than 20% of websites;[14] it is now supported by many web browsers (73% of users).[15] HTTP/3 uses QUIC instead of TCP for the underlying transport protocol. Like HTTP/2, it does not obsolete previous major versions of the protocol. Support for HTTP/3 was added to Cloudflare and Google Chrome first,[16][17] and is also enabled in Firefox.[18]
+The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.
+
+Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP protocol version that was named 0.9.[2]
+
+That first version of HTTP protocol soon evolved into a more elaborated version that was the first draft toward a far future version 1.0.[3]
+
+Development of early HTTP Requests for Comments (RFCs) started a few years later and it was a coordinated effort by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), with work later moving to the IETF.
+
+HTTP/1 was finalized and fully documented (as version 1.0) in 1996.[4] It evolved (as version 1.1) in 1997 and then its specifications were updated in 1999 and in 2014.[5]
+
+Its secure variant named HTTPS is used by more than 76% of websites.[6]
+
+HTTP/2 is a more efficient expression of HTTP's semantics "on the wire", and was published in 2015; it is used by more than 45% of websites;[7] it is now supported by almost all web browsers (96% of users)[8] and major web servers over Transport Layer Security (TLS) using an Application-Layer Protocol Negotiation (ALPN) extension[9] where TLS 1.2 or newer is required.[10][11]
+
+HTTP/3 is the proposed successor to HTTP/2;[12][13] it is used by more than 20% of websites;[14] it is now supported by many web browsers (73% of users).[15] HTTP/3 uses QUIC instead of TCP for the underlying transport protocol. Like HTTP/2, it does not obsolete previous major versions of the protocol. Support for HTTP/3 was added to Cloudflare and Google Chrome first,[16][17] and is also enabled in Firefox.[18]</p>
+
+
+<h2>Technical overview</h2>
+<p>HTTP functions as a request–response protocol in the client–server model. A web browser, for example, may be the client whereas a process, named web server, running on a computer hosting one or more websites may be the server. The client submits an HTTP request message to the server. The server, which provides resources such as HTML files and other content or performs other functions on behalf of the client, returns a response message to the client. The response contains completion status information about the request and may also contain requested content in its message body.
+
+A web browser is an example of a user agent (UA). Other types of user agent include the indexing software used by search providers (web crawlers), voice browsers, mobile apps, and other software that accesses, consumes, or displays web content.
+
+HTTP is designed to permit intermediate network elements to improve or enable communications between clients and servers. High-traffic websites often benefit from web cache servers that deliver content on behalf of upstream servers to improve response time. Web browsers cache previously accessed web resources and reuse them, whenever possible, to reduce network traffic. HTTP proxy servers at private network boundaries can facilitate communication for clients without a globally routable address, by relaying messages with external servers.
+
+To allow intermediate HTTP nodes (proxy servers, web caches, etc.) to accomplish their functions, some of the HTTP headers (found in HTTP requests/responses) are managed hop-by-hop whereas other HTTP headers are managed end-to-end (managed only by the source client and by the target web server).
+
+HTTP is an application layer protocol designed within the framework of the Internet protocol suite. Its definition presumes an underlying and reliable transport layer protocol,[19] thus Transmission Control Protocol (TCP) is commonly used. However, HTTP can be adapted to use unreliable protocols such as the User Datagram Protocol (UDP), for example in HTTPU and Simple Service Discovery Protocol (SSDP).
+
+HTTP resources are identified and located on the network by Uniform Resource Locators (URLs), using the Uniform Resource Identifiers (URI's) schemes http and https. As defined in RFC 3986, URIs are encoded as hyperlinks in HTML documents, so as to form interlinked hypertext documents.
+
+In HTTP/1.0 a separate connection to the same server is made for every resource request.[20]
+</p>
+
+<a name = "history"></a>
+<h2 >History</h2>
+<p>
+	<h4>HTTP/1.0-draft</h4>
+	<p>Since 1992, a new document was written to specify the evolution of the basic protocol towards its next full version. It supported both the simple request method of the 0.9 version and the full GET request that included the client HTTP version. This was the first of the many unofficial HTTP/1.0 drafts that preceded the final work on HTTP/1.0.[3]</p>
+</p>
+	<h4>W3C HTTP Working Group</h4>
+	<p>After having decided that new features of HTTP protocol were required and that they had to be fully documented as official RFCs, in early 1995 the HTTP Working Group (HTTP WG, led by Dave Raggett) was constituted with the aim to standardize and expand the protocol with extended operations, extended negotiation, richer meta-information, tied with a security protocol which became more efficient by adding additional methods and header fields.[28][29]
+The HTTP WG planned to revise and publish new versions of the protocol as HTTP/1.0 and HTTP/1.1 within 1995, but, because of the many revisions, that timeline lasted much more than one year.[30]
+The HTTP WG planned also to specify a far future version of HTTP called HTTP-NG (HTTP Next Generation) that would have solved all remaining problems, of previous versions, related to performances, low latency responses, etc. but this work started only a few years later and it was never completed.</p>
+
+<h4>HTTP/1.0</h4>
+<p>Since early 1996, major web browsers and web server developers also started to implement new features specified by pre-standard HTTP/1.1 drafts specifications. End-user adoption of the new versions of browsers and servers was rapid. In March 1996, one web hosting company reported that over 40% of browsers in use on the Internet used the new HTTP/1.1 header "Host" to enable virtual hosting. That same web hosting company reported that by June 1996, 65% of all browsers accessing their servers were pre-standard HTTP/1.1 compliant.[32]
+In January 1997, RFC 2068 was officially released as HTTP/1.1 specifications.
+In June 1999, RFC 2616 was released to include all improvements and updates based on previous (obsolete) HTTP/1.1 specifications.
+W3C HTTP-NG Working Group</p>
+
+<h4>W3C HTTP-NG Working Group</h4>
+<p>Since early 1996, major web browsers and web server developers also started to implement new features specified by pre-standard HTTP/1.1 drafts specifications. End-user adoption of the new versions of browsers and servers was rapid. In March 1996, one web hosting company reported that over 40% of browsers in use on the Internet used the new HTTP/1.1 header "Host" to enable virtual hosting. That same web hosting company reported that by June 1996, 65% of all browsers accessing their servers were pre-standard HTTP/1.1 compliant.[32]
+In January 1997, RFC 2068 was officially released as HTTP/1.1 specifications.
+In June 1999, RFC 2616 was released to include all improvements and updates ba</p>
+
+
+<a name = "label"></a>
+<h2>Persistent connections</h2>
+<p>In HTTP/0.9, the TCP/IP connection is always closed after server response has been sent, so it is never persistent.
+
+In HTTP/1.0, as stated in RFC 1945, the TCP/IP connection should always be closed by server after a response has been sent. [note 3]
+
+In HTTP/1.1 a keep-alive-mechanism was officially introduced so that a connection could be reused for more than one request/response. Such persistent connections reduce request latency perceptibly because the client does not need to re-negotiate the TCP 3-Way-Handshake connection after the first request has been sent. Another positive side effect is that, in general, the connection becomes faster with time due to TCP's slow-start-mechanism.
+
+HTTP/1.1 added also HTTP pipelining in order to further reduce lag time when using persistent connections by allowing clients to send multiple requests before waiting for each response. This optimization was never considered really safe because a few web servers and many proxy servers, specially transparent proxy servers placed in Internet / Intranets between clients and servers, did not handled pipelined requests properly (they served only the first request discarding the others, they closed the connection because they saw more data after the first request or some proxies even returned responses out of order etc.). Besides this only HEAD and some GET requests (i.e. limited to real file requests and so with URLs without query string used as a command, etc.) could be pipelined in a safe and idempotent mode. After many years of struggling with the problems introduced by enabling pipelining, this feature was first disabled and then removed from most browsers also because of the announced adoption of HTTP/2.
+
+HTTP/2 extended the usage of persistent connections by multiplexing many concurrent requests/responses through a single TCP/IP connection.
+
+HTTP/3 does not use TCP/IP connections but QUIC + UDP (see also: technical overview).
+
+Content retrieval optimizations
+HTTP/0.9
+a requested resource was always sent entirely.
+HTTP/1.0
+HTTP/1.0 added headers to manage resources cached by client in order to allow conditional GET requests; in practice a server has to return the entire content of the requested resource only if its last modified time is not known by client or if it changed since last full response to GET request. One of these headers, "Content-Encoding", was added to specify whether the returned content of a resource was or was not compressed.
+If the total length of the content of a resource was not known in advance (i.e. because it was dynamically generated, etc.) then the header "Content-Length: number" was not present in HTTP headers and the client assumed that when server closed the connection, the content had been entirely sent. This mechanism could not distinguish between a resource transfer successfully completed and an interrupted one (because of a server / network error or so</p>
+
+<h3><u>for any queries</u></h3>
+<a href = mailto:ssunandianjuri@gmail.com>contact through mail</a>
+<a href = "#label2"><h3>to  move to top</h3></a>
+</br></br></br></br></br></br></br></br></br></br>
+
+	</body>
+</html>
